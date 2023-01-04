@@ -1,6 +1,6 @@
 /**
  * @fileoverview 发现todo注释，检查是否有需要完善的功能
- * @author zhujm
+ * @author liukefu
  */
 'use strict';
 

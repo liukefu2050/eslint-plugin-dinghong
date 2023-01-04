@@ -1,21 +1,21 @@
 /**
  * @fileoverview 发现todo注释，检查是否有需要完善的功能
- * @author zhujm
+ * @author liukefu
  */
  'use strict';
 
  //------------------------------------------------------------------------------
  // Requirements
  //------------------------------------------------------------------------------
- 
+
  const rule = require('../../../lib/rules/no-var'),
    RuleTester = require('eslint').RuleTester;
- 
- 
+
+
  //------------------------------------------------------------------------------
  // Tests
  //------------------------------------------------------------------------------
- 
+
  const ruleTester = new RuleTester({
     parserOptions: {
         ecmaVersion: 'latest'
@@ -27,7 +27,7 @@
         code: 'let a = 1'
     }
    ],
- 
+
    invalid: [
      {
        code: 'var a = 1',
@@ -36,4 +36,3 @@
      },
    ],
  });
- 

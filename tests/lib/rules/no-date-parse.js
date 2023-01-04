@@ -1,6 +1,6 @@
 /**
  * @fileoverview 禁止直接使用Date.parse格式化字符串
- * @author zhujm
+ * @author liukefu
  */
 'use strict';
 const rule = require('../../../lib/rules/no-date-parse'),

@@ -1,6 +1,6 @@
-# eslint-plugin-customize
+# eslint-plugin-dinghong
 
-Custom ESLint Rules
+DINGHONG ESLint Rules
 
 [简体中文](./README.md) | English
 
@@ -18,10 +18,10 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-customize`:
+Next, install `eslint-plugin-dinghong`:
 
 ```sh
-npm install eslint-plugin-customize --save-dev
+npm install eslint-plugin-dinghong --save-dev
 ```
 
 ## Usage
@@ -29,19 +29,19 @@ npm install eslint-plugin-customize --save-dev
 ```json
 {
     "extends": [
-        "plugin:customize/recommended"
+        "plugin:dinghong/recommended"
     ]
 }
 ```
 Configured in this way, all rules take effect. If you need to adjust a rule, you can override it in `rules` alone
 
 #### Or, introduce by configuring plugins and rules
-Add `customize` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `dinghong` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "customize"
+        "dinghong"
     ]
 }
 ```
@@ -51,7 +51,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "customize/no-todo-comment": 2 // 0 = off, 1 = warn, 2 = error
+        "dinghong/no-todo-comment": 2 // 0 = off, 1 = warn, 2 = error
     }
 }
 ```

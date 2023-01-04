@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-customize",
+  "name": "eslint-plugin-dinghong",
   "version": "0.0.2",
   "description": "自定义规则集",
   "keywords": [
@@ -7,7 +7,7 @@
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "zhujm",
+  "author": "liukefu",
   "main": "./lib/index.js",
   "exports": "./lib/index.js",
   "scripts": {

@@ -1,6 +1,6 @@
 /**
  * @fileoverview 禁止使用 new Date 时，传入单个参数
- * @author zhujm
+ * @author liukefu
  */
 'use strict';
 

@@ -1,4 +1,4 @@
-# eslint-plugin-customize
+# eslint-plugin-dinghong
 
 自定义规则集
 
@@ -18,10 +18,10 @@
 npm i eslint --save-dev
 ```
 
-再安装 `eslint-plugin-customize`:
+再安装 `eslint-plugin-dinghong`:
 
 ```sh
-npm install eslint-plugin-customize --save-dev
+npm install eslint-plugin-dinghong --save-dev
 ```
 
 ## 使用
@@ -29,18 +29,18 @@ npm install eslint-plugin-customize --save-dev
 ```json
 {
     "extends": [
-        "plugin:customize/recommended"
+        "plugin:dinghong/recommended"
     ]
 }
 ```
 通过这种方式配置，所有的 rule 均生效，如果需要调整某个规则可以单独在 `rules` 进行覆盖 
 #### 或者，通过配置 plugins 和 rules
-添加 `customize` 到 `.eslintrc` 配置文件的 `plugins`，可以省略 `eslint-plugin-` 前缀：
+添加 `dinghong` 到 `.eslintrc` 配置文件的 `plugins`，可以省略 `eslint-plugin-` 前缀：
 
 ```json
 {
     "plugins": [
-        "customize"
+        "dinghong"
     ]
 }
 ```
@@ -50,7 +50,7 @@ npm install eslint-plugin-customize --save-dev
 ```json
 {
     "rules": {
-        "customize/no-todo-comment": 2 // 0 = off, 1 = warn, 2 = error
+        "dinghong/no-todo-comment": 2 // 0 = off, 1 = warn, 2 = error
     }
 }
 ```
