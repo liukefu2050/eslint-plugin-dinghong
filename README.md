@@ -1,6 +1,6 @@
 # eslint-plugin-dinghong
 
-自定义规则集
+鼎宏公司自定义规则集
 
 简体中文 | [English](./README-EN.md)
 
