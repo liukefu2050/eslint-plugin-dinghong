@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-dinghong",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "自定义规则集",
   "keywords": [
     "eslint",
